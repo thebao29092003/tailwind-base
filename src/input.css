@@ -1,5 +1,4 @@
 @import "tailwindcss";
-<<<<<<< HEAD
 /* @config "../tailwind.config.js" */
 @theme {
   --font-ultra: "Ultra";
@@ -7,8 +6,6 @@
 }
 :root{
   --my-image-size: 70% 100%;
- 
+ /* box-shadow: offset-x offset-y blur-radius spread-radius color */
+ --my-shadow: 10px 10px 15px 3px rgba(255, 0,0,0.2)
 }
-=======
-@config "../tailwind.config.js"
->>>>>>> parent of 8d2298d (background, cursor, font, outline)

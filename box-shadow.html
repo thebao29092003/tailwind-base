@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>box-shadow.html</title>
+  </head>
+  <body class="p-4">
+   <!-- 1. nhóm shadow mặc định (từ nhẹ đến mạnh) -->
+    <div class="p-4 m-5 w-40 shadow-md">shadow</div>
+    <div class="p-4 m-5 w-40 shadow-md/50 rounded-[5px]">shadow</div>
+    <!-- 2. custom value -->
+    <div class="p-4 m-5 w-40 shadow-(--my-shadow) rounded-[5px]">shadow</div>
+    <div class="p-4 m-5 w-40 shadow-md shadow-amber-200 rounded-[5px]">shadow</div>
+    <div class="p-4 m-5 w-40 inset-shadow-sm inset-shadow-amber-800 rounded-[5px]">inset shadow</div>
+  </body>
+</html>
