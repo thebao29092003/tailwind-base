@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>display</title>
+  </head>
+  <body>
+    <!-- 1.display block (chiếm hết chiều ngang, xét đc width, height)-->
+    <p class="bg-amber-200">Lorem ipsum dolor sit.</p>
+
+    <!-- 2.display inline (chỉ chiếm trong dòng, ko xét đc width, height)-->
+    <span class="bg-amber-300">Lorem ipsum dolor sit.</span>
+
+    <!-- 3.display inline-block (vẫn mang nét inline nhưng có thể xét width, height được)-->
+    <span class="bg-amber-300 inline-block w-50 h-50">Lorem ipsum dolor sit.</span>
+
+    <!-- 4. hidden bằng display: none bên css -->
+    <span class="bg-amber-300 w-50 h-50 hidden">Lorem ipsum dolor sit.</span>
+
+  </body>
+</html>

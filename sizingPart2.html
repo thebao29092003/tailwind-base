@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>sizing</title>
+  </head>
+  <body>
+    <!--4. width theo nội dung hoặc tự động
+    class     ý nghĩa
+    w-auto    Tự động, ko bị set cứng width
+    w-min     Co nhỏ nhất có thể mà ko vỡ theo từ dài nhất
+    w-max     Mở rộng tối đa theo nội dung ko bị bẽ gãy dòng
+    w-fit     Tự điều chỉnh phù hợp với nội dung
+    w-[300px] Tùy chỉnh pixel
+    -->
+
+    <div class="flex gap-4 bg-gray-200">
+      <div class="w-auto bg-blue-200 e">w-auto</div>
+      <div class="w-1/2 bg-green-200 e">w-1/2</div>
+    </div>
+
+    <div class="w-64 bg-red-200">rộng 256px</div>
+    <div class="w-auto bg-blue-200">trở lại auto</div>
+
+    <div class="w-fit bg-cyan-400">w-fit (text khit)</div>
+    <div class="w-min bg-cyan-600">w-fit nghiêng</div>
+    <div class="w-max bg-cyan-500">w-fit nghiêng</div>
+    <div class="w-[300px] bg-cyan-300">w-fit nghiêng</div>
+    <div></div>
+
+    <!-- 5. dùng size (width + height gộp)  -->
+    <div class="h-30 w-30 bg-lime-300">120px * 120px</div>
+    <div class="size-30 bg-lime-200">120px * 120px</div>
+
+    <!-- 5.1 size full, size auto, size px -->
+    <div class="size-50 bg-red-400">
+      <div class="size-full bg-yellow-50">Chiếm toàn bộ width + height</div>
+    </div>
+
+    <!-- inline chiếm nội dung mà nó chứa thôi
+     còn block thì nó chiếm hết chiều ngang của thẻ cha -->
+    <div class="size-[150px] bg-amber-600">150px*150px</div>
+    <div class="size-50 bg-red-400">
+      <div class="size-auto inline-block bg-yellow-400">Auto cả 2 chiều</div>
+    </div>
+
+    <!-- min-width: set kích thước tối thiểu cho phần tử,
+     kể cả trình duyệt có co lại thì phần tử vẫn luôn ở kích thước min, ko co lại thêm
+      -->
+    <div class="bg-red-500 mt-5 min-w-100">min-width</div>
+
+    <!-- max-width: set kích thước tối đa cho phần tử,
+     kể cả trình duyệt có dãn ra  thì phần tử vẫn luôn ở kích thước tối đa, ko dãn thêm
+      -->
+    <div class="bg-red-500 mt-5 max-w-50">max-width</div>
+
+    
+    <!-- tương tự max-height và min-height -->
+  </body>
+</html>

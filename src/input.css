@@ -1,0 +1,14 @@
+@import "tailwindcss";
+<<<<<<< HEAD
+/* @config "../tailwind.config.js" */
+@theme {
+  --font-ultra: "Ultra";
+   --tuychon3: "#233fff";
+}
+:root{
+  --my-image-size: 70% 100%;
+ 
+}
+=======
+@config "../tailwind.config.js"
+>>>>>>> parent of 8d2298d (background, cursor, font, outline)
