@@ -7,6 +7,39 @@
     <title>column.html</title>
   </head>
   <body class="p-4">
-  
+    <!-- chia cột theo số lượng - columns-<number -->
+    <div class="columns-3 mb-3">
+      <p class="bg-blue-500">box1</p>
+      <p class="bg-blue-500">box2</p>
+      <p class="bg-blue-500">box3</p>
+      <p class="bg-blue-500">box4</p>
+      <p class="bg-blue-500">box5</p>
+      <p class="bg-blue-500">box6</p>
+    </div>
+    <div class="columns-3 mb-3">
+      <p class="bg-blue-500">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate est
+        eius tenetur quidem autem praesentium suscipit quos quaerat molestiae
+        enim.
+      </p>
+    </div>
+
+    <!-- chia cột theo cỡ có sẵn 3xs, 2xs, xs, sm, md
+     ví dụ 3xs là 256px thì tối thiểu cột có độ rồng 256px
+     nếu viewport nhỏ thì nó sẽ gộp cột lại-->
+    <div class="columns-3xs mb-3">
+      <p class="bg-blue-500">lorem*200</p>
+    </div>
+    <div class="columns-[201px] mb-3">
+      <p class="bg-blue-500">lorem*200</p>
+    </div>
+    <div class="columns-(--my-columns) mb-3">
+      <p class="bg-blue-500">lorem*200</p>
+    </div>
+
+    <!-- 5. reponsive -->
+     <div class="columns-2 gap-7 md:columns-3 mb-3">
+      <p>lorem*200</p>
+     </div>
   </body>
 </html>

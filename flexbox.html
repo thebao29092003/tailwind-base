@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>flexbox</title>
+  </head>
+  <body class="">
+    <!-- justify-content -->
+    <div class="flex justify-start bg-amber-400 mb-5">
+      <div class="bg-blue-500 border px-3 py-1 text-white">box1</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box2</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box3</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+    </div>
+    <div class="flex justify-end bg-amber-400 mb-5">
+      <div class="bg-blue-500 border px-3 py-1 text-white">box1</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box2</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box3</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+    </div>
+    <div class="flex justify-center bg-amber-400 mb-5">
+      <div class="bg-blue-500 border px-3 py-1 text-white">box1</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box2</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box3</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+    </div>
+    <div class="flex justify-around bg-amber-400 mb-5">
+      <div class="bg-blue-500 border px-3 py-1 text-white">box1</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box2</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box3</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+    </div>
+    <div class="flex justify-between bg-amber-400 mb-5">
+      <div class="bg-blue-500 border px-3 py-1 text-white">box1</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box2</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box3</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+    </div>
+    <div class="flex justify-evenly bg-amber-400 mb-5">
+      <div class="bg-blue-500 border px-3 py-1 text-white">box1</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box2</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box3</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+    </div>
+
+    <!-- align-item -->
+    <p>items-stretch</p>
+    <div class="flex items-stretch bg-amber-400 mb-5">
+      <div class="bg-blue-500 border px-3 py-1 text-white h-[200px]">box1</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box2</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box3</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+    </div>
+    <p>items-end</p>
+    <div class="flex items-end bg-amber-400 mb-5">
+      <div class="bg-blue-500 border px-3 py-1 text-white h-[200px]">box1</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box2</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box3</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+    </div>
+    <p>items-start</p>
+    <div class="flex items-start bg-amber-400 mb-5">
+      <div class="bg-blue-500 border px-3 py-1 text-white h-[200px]">box1</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box2</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box3</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+    </div>
+    <p>items-center</p>
+    <div class="flex items-center bg-amber-400 mb-5">
+      <div class="bg-blue-500 border px-3 py-1 text-white h-[200px]">box1</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box2</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box3</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+    </div>
+    <p>items-baseline</p>
+    <div class="flex items-baseline bg-amber-400 mb-5">
+      <div class="bg-blue-500 border px-3 py-1 text-white h-[200px]">box1</div>
+      <div class="bg-blue-500 border px-3 py-1 text-5xl text-white">box2</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box3</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+    </div>
+
+    <p>flex-nowrap(mặc định)</p>
+    <div class="flex  bg-amber-400 mb-5 p-4">
+      <div class="bg-blue-500 border px-3 py-1 text-white">box1</div>
+      <div class="bg-blue-500 border px-3 py-1  text-white">box2</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box3</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+    </div>
+
+    <p>flex-wrap</p>
+    <div class="flex flex-wrap  bg-amber-400 mb-5 p-4">
+      <div class="bg-blue-500 border px-3 py-1 text-white">box1</div>
+      <div class="bg-blue-500 border px-3 py-1  text-white">box2</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box3</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+    </div>
+
+    <p> flex-wrap-reverse</p>
+    <div class="flex flex-wrap-reverse  bg-amber-400 mb-5 p-4">
+      <div class="bg-blue-500 border px-3 py-1 text-white">box1</div>
+      <div class="bg-blue-500 border px-3 py-1  text-white">box2</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box3</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+    </div>
+
+     <p> aligh-content</p>
+     <p> content-stretch</p>
+    <div class="flex flex-wrap content-stretc h-[200px]  bg-amber-400 mb-5 p-4">
+      <div class="bg-blue-500 border px-3 py-1 text-white">box1</div>
+      <div class="bg-blue-500 border px-3 py-1  text-white">box2</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box3</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+    </div>
+
+     <p> content-start</p>
+    <div class="flex flex-wrap content-start h-[200px]  bg-amber-400 mb-5 p-4">
+      <div class="bg-blue-500 border px-3 py-1 text-white">box1</div>
+      <div class="bg-blue-500 border px-3 py-1  text-white">box2</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box3</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+      <div class="bg-blue-500 border px-3 py-1 text-white">box4</div>
+    </div>
+  </body>
+</html>
